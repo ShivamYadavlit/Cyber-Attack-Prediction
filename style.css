@@ -1,0 +1,75 @@
+/* Main content styling */
+.stApp {
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #1a2639;
+    color: white;
+}
+
+/* Title styling */
+h1 {
+    color: #1a2639;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #3a506b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background-color: #1a2639;
+    color: white;
+}
+
+/* Metric card styling */
+.css-1xarl3l {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Form styling */
+.stForm {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Alert boxes */
+.stAlert {
+    border-radius: 10px;
+}
+
+/* Dataframe styling */
+.dataframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
+    border: 1px solid #e1e4e8;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #3a506b;
+    color: white;
+}
